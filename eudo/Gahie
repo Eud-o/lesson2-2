@@ -1,0 +1,66 @@
+{
+    "name": "HDR_Table_15_Schema",
+    "title": "SBC4D Schema",
+    "description": "Essai",
+    "fields": [
+        {
+            "name": "HDI_rank",
+            "title": "Rang de chaque HDI",
+            "type": "integer",
+            "description": "Classement de chaque pays par niveau de développement."
+        },
+        {
+            "name": "Human_developpement_level",
+            "title": "Human Developpement level",
+            "type": "string",
+            "description": "Niveau de développement de chaque pays."
+        },
+        {
+            "name": "Country",
+            "title": "Pays",
+            "type": "String",
+            "description": "Nom d'un pays."
+        },
+        {
+            "name": "Survey_year",
+            "title": "Survey year",
+            "type": "number"        
+		},
+        {
+            "name": "Share_of_income_or_expenditure_Poorest_10%",
+            "title": "Share of income or expenditure  Poorest 10%",
+            "type": "integer"
+        },
+        {
+            "name": "Share_of_income_or_expenditure_Poorest_20%",
+            "title": "Share of income or expenditure  Poorest 20%",
+            "type": "integer"
+        },
+        {
+            "name":"Share_of_income_or_expenditureRichest_20%",
+            "title": "Share of income or expenditure  Richest 20%",
+            "type": "integer"
+		},
+        {
+            "name": "Share_of_income_or_expenditure_Richest_10%",
+            "title":  "Share of income or expenditure    Richest 10%",
+            "type": "number"
+        },
+		  {
+            "name":"Inequality_measures_Richest_10%_to_poorest_10%",
+            "title":"Inequality measures     Richest 10% to poorest 10%",
+            "type":"number"
+        },
+        {
+            "name":"Inequality_measures_Richest_20%_to_poorest_20%",
+            "title":"Inequality measures     Richest 20% to poorest 20%",
+            "type":"number"
+        },
+		{
+            "name":"Inequality_measures_Gini_index",
+            "title":"Inequality measures     Gini index",
+            "type":"number"
+        }
+    ],
+    "missingValues": ["NaN", "..", "(.)"]
+}
